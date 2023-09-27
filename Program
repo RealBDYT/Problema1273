@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x;
+    int y;
+    int s;
+
+    cout<<"Valoarea primului numar"<<endl;
+    cin>>x;
+
+    cout<<"Valoarea celui de-al doilea numar"<<endl;
+    cin>>y;
+
+    cout<<"Ultima cifra a sumei lor"<<endl;
+    s = x + y;
+
+    cout<<s % 10;
+
+    return 0;
+}
